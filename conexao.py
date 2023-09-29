@@ -20,8 +20,5 @@ try:
 
 except OperationalError as e:
     print(f"Erro ao conectar ao PostgreSQL: {e}")
-'''
-finally:
-    if conexao:
-        conexao.close()
-]'''
+
+    fi
