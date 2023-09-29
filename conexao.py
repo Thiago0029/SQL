@@ -11,17 +11,17 @@ try:
         dbname = "estudos",
         user =  "postgres",
         password = '123',
-        host = '192.168.1.13',
+        host = '192.168.1.7',
         port = '5432'
     )
 
     cur = conexao.cursor()
     print ("Conexão ok")
-    cur.execute ("CREATE TABLE alimentos(id INT PRIMARY KEY, nome VARCHAR(100), valor FLOAT)")
 
 except OperationalError as e:
     print(f"Erro ao conectar ao PostgreSQL: {e}")
-
+'''
 finally:
     if conexao:
         conexao.close()
+]'''
