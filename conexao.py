@@ -9,7 +9,7 @@ try:
     conexao = psycopg2.connect(
         dbname = "estudos",
         user =  "postgresql",
-        passwords = "123",
+        password = "123",
         host = "192.168.1.13"
     )
 
