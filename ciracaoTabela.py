@@ -7,4 +7,5 @@
 from conexao import cur
 import psycopg2
 
-cur.execute ("CREATE TABLE alimentos(PRIMARY KEY id INT(3), nome VARCHAR(100), valor FLOAT(2.2))")
+cur.execute("CREATE TABLE alimentos(id INT PRIMARY KEY, nome VARCHAR, valor FLOAT)")
+print("Tabela criada")
